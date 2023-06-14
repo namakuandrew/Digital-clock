@@ -23,7 +23,7 @@ function ShowTime() {
   m = m < 10 ? "0" + m : m;
   s = s < 10 ? "0" + s : s;
   let time = h + ":" + m + ":" + s + " " + session;
-  document.getElementById("MyClockDisplay").innertext = time;
+  document.getElementById("MyClockDisplay").innerText = time;
 
   // ini untuk 1 detik ke 1000 milidetik
   setTimeout(ShowTime, 1000);
